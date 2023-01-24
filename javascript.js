@@ -1,11 +1,3 @@
-/* Generate a random number between 0 and 1 using Math.random();
-
-Multiply the random number with choices.length (to get a number between 0 and choices.length);
-
-Use Math.floor() on the result to get an index between 0 and array.length - 1;
-
-Use the random index on the array to get an element at random. */
-
 const options = [ 'rock', 'paper', 'scissors' ];
 
 function getComputerChoice() {
